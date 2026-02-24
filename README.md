@@ -48,13 +48,6 @@ property-app/
 | `property_images` | Multiple images per property (cover flagged) |
 | `enquiries` | Contact form submissions |
 
-### Key Design Decisions
-- **BER stored as text**: flexible for future ratings, validated at app level
-- **`price_min_value`** as `NUMERIC(12,2)` supports both rent (monthly) and sale prices
-- **`rental_period`** supports Monthly/Weekly/Daily
-- **Full-text search index** via PostgreSQL `GIN` on `title || description || address`
-- **`v_property_listing` view** pre-joins cover image + county + seller for fast listing queries
-
 ---
 
 ## 🚀 Setup Instructions
