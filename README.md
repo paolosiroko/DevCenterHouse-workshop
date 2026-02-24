@@ -1,4 +1,4 @@
-# 🏠 FindQo Property Listing App
+# 🏠Property Listing App
 
 A full-stack property listing platform modelled on [findqo.ie](https://findqo.ie/properties-for-rent/antrim), built with **Django REST Framework** (backend) + **React/Vite** (frontend) + **MySQL**.
 
